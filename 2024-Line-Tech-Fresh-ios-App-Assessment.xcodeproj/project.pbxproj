@@ -9,21 +9,29 @@
 /* Begin PBXBuildFile section */
 		FB7EB2132BCE624000839008 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7EB2122BCE624000839008 /* AppDelegate.swift */; };
 		FB7EB2152BCE624000839008 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7EB2142BCE624000839008 /* SceneDelegate.swift */; };
-		FB7EB2172BCE624000839008 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7EB2162BCE624000839008 /* ViewController.swift */; };
-		FB7EB21A2BCE624000839008 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = FB7EB2192BCE624000839008 /* Base */; };
 		FB7EB21C2BCE624100839008 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB7EB21B2BCE624100839008 /* Assets.xcassets */; };
 		FB7EB21F2BCE624100839008 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = FB7EB21E2BCE624100839008 /* Base */; };
+		FB7EB2272BCE633A00839008 /* Epidemic.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7EB2262BCE633A00839008 /* Epidemic.swift */; };
+		FB7EB2292BCE634C00839008 /* EpidemicTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7EB2282BCE634C00839008 /* EpidemicTableViewController.swift */; };
+		FB7EB22B2BCE637500839008 /* EpidemicTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7EB22A2BCE637500839008 /* EpidemicTableViewCell.swift */; };
+		FB7EB22D2BCE63A200839008 /* EpidemicDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7EB22C2BCE63A200839008 /* EpidemicDetailViewController.swift */; };
+		FB7EB22F2BCE640B00839008 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7EB22E2BCE640B00839008 /* ContentView.swift */; };
+		FB7EB2342BCE944700839008 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB7EB2322BCE944700839008 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FB7EB20F2BCE624000839008 /* 2024-Line-Tech-Fresh-ios-App-Assessment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "2024-Line-Tech-Fresh-ios-App-Assessment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB7EB2122BCE624000839008 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FB7EB2142BCE624000839008 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FB7EB2162BCE624000839008 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FB7EB2192BCE624000839008 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FB7EB21B2BCE624100839008 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB7EB21E2BCE624100839008 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FB7EB2202BCE624100839008 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB7EB2262BCE633A00839008 /* Epidemic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Epidemic.swift; sourceTree = "<group>"; };
+		FB7EB2282BCE634C00839008 /* EpidemicTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpidemicTableViewController.swift; sourceTree = "<group>"; };
+		FB7EB22A2BCE637500839008 /* EpidemicTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpidemicTableViewCell.swift; sourceTree = "<group>"; };
+		FB7EB22C2BCE63A200839008 /* EpidemicDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpidemicDetailViewController.swift; sourceTree = "<group>"; };
+		FB7EB22E2BCE640B00839008 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FB7EB2332BCE944700839008 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,9 +66,13 @@
 			children = (
 				FB7EB2122BCE624000839008 /* AppDelegate.swift */,
 				FB7EB2142BCE624000839008 /* SceneDelegate.swift */,
-				FB7EB2162BCE624000839008 /* ViewController.swift */,
-				FB7EB2182BCE624000839008 /* Main.storyboard */,
+				FB7EB2262BCE633A00839008 /* Epidemic.swift */,
+				FB7EB22C2BCE63A200839008 /* EpidemicDetailViewController.swift */,
+				FB7EB22E2BCE640B00839008 /* ContentView.swift */,
+				FB7EB22A2BCE637500839008 /* EpidemicTableViewCell.swift */,
+				FB7EB2282BCE634C00839008 /* EpidemicTableViewController.swift */,
 				FB7EB21B2BCE624100839008 /* Assets.xcassets */,
+				FB7EB2322BCE944700839008 /* Main.storyboard */,
 				FB7EB21D2BCE624100839008 /* LaunchScreen.storyboard */,
 				FB7EB2202BCE624100839008 /* Info.plist */,
 			);
@@ -127,7 +139,7 @@
 			files = (
 				FB7EB21C2BCE624100839008 /* Assets.xcassets in Resources */,
 				FB7EB21F2BCE624100839008 /* Base in Resources */,
-				FB7EB21A2BCE624000839008 /* Base in Resources */,
+				FB7EB2342BCE944700839008 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,29 +150,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB7EB2172BCE624000839008 /* ViewController.swift in Sources */,
+				FB7EB2272BCE633A00839008 /* Epidemic.swift in Sources */,
+				FB7EB22F2BCE640B00839008 /* ContentView.swift in Sources */,
 				FB7EB2132BCE624000839008 /* AppDelegate.swift in Sources */,
+				FB7EB22B2BCE637500839008 /* EpidemicTableViewCell.swift in Sources */,
+				FB7EB2292BCE634C00839008 /* EpidemicTableViewController.swift in Sources */,
 				FB7EB2152BCE624000839008 /* SceneDelegate.swift in Sources */,
+				FB7EB22D2BCE63A200839008 /* EpidemicDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		FB7EB2182BCE624000839008 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FB7EB2192BCE624000839008 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		FB7EB21D2BCE624100839008 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				FB7EB21E2BCE624100839008 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		FB7EB2322BCE944700839008 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB7EB2332BCE944700839008 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
