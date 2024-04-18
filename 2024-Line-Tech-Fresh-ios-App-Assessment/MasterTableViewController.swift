@@ -45,6 +45,8 @@ class MasterTableViewController: UITableViewController {
                 performSegue(withIdentifier: "showPharmacy", sender: self)
             case 2:
                 performSegue(withIdentifier: "showClinic", sender: self)
+            case 3:
+                performSegue(withIdentifier: "showDistrict", sender: self)
             default:
                 break
         }
