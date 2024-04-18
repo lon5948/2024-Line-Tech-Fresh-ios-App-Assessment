@@ -41,6 +41,8 @@ class MasterTableViewController: UITableViewController {
         switch indexPath.row {
             case 0:
                 performSegue(withIdentifier: "showEpidemicInfo", sender: self)
+            case 1:
+                performSegue(withIdentifier: "showPharmacy", sender: self)
             default:
                 break
         }

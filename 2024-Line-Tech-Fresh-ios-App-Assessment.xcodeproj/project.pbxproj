@@ -13,6 +13,11 @@
 		FB6D5D602BD0E60800DD08FA /* epidemic.png in Resources */ = {isa = PBXBuildFile; fileRef = FB6D5D5D2BD0E60800DD08FA /* epidemic.png */; };
 		FB6D5D612BD0E60800DD08FA /* pharmacy.png in Resources */ = {isa = PBXBuildFile; fileRef = FB6D5D5E2BD0E60800DD08FA /* pharmacy.png */; };
 		FB6D5D632BD0E6B800DD08FA /* center.png in Resources */ = {isa = PBXBuildFile; fileRef = FB6D5D622BD0E6B800DD08FA /* center.png */; };
+		FB6D5D6C2BD0FFE800DD08FA /* PharmacyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6D5D6B2BD0FFE800DD08FA /* PharmacyTableViewController.swift */; };
+		FB6D5D6E2BD1055D00DD08FA /* PharmacyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6D5D6D2BD1055D00DD08FA /* PharmacyTableViewCell.swift */; };
+		FB6D5D702BD1057E00DD08FA /* Pharmacy.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6D5D6F2BD1057E00DD08FA /* Pharmacy.swift */; };
+		FB6D5D732BD109AB00DD08FA /* Epidemic.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB6D5D712BD109AB00DD08FA /* Epidemic.storyboard */; };
+		FB6D5D752BD110DF00DD08FA /* PharmacyDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6D5D742BD110DF00DD08FA /* PharmacyDetailViewController.swift */; };
 		FB7EB2132BCE624000839008 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7EB2122BCE624000839008 /* AppDelegate.swift */; };
 		FB7EB2152BCE624000839008 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7EB2142BCE624000839008 /* SceneDelegate.swift */; };
 		FB7EB21C2BCE624100839008 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB7EB21B2BCE624100839008 /* Assets.xcassets */; };
@@ -32,6 +37,11 @@
 		FB6D5D5D2BD0E60800DD08FA /* epidemic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = epidemic.png; sourceTree = "<group>"; };
 		FB6D5D5E2BD0E60800DD08FA /* pharmacy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pharmacy.png; sourceTree = "<group>"; };
 		FB6D5D622BD0E6B800DD08FA /* center.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = center.png; path = ../../Downloads/center.png; sourceTree = "<group>"; };
+		FB6D5D6B2BD0FFE800DD08FA /* PharmacyTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PharmacyTableViewController.swift; sourceTree = "<group>"; };
+		FB6D5D6D2BD1055D00DD08FA /* PharmacyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PharmacyTableViewCell.swift; sourceTree = "<group>"; };
+		FB6D5D6F2BD1057E00DD08FA /* Pharmacy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pharmacy.swift; sourceTree = "<group>"; };
+		FB6D5D722BD109AB00DD08FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "2024-Line-Tech-Fresh-ios-App-Assessment/Base.lproj/Epidemic.storyboard"; sourceTree = "<group>"; };
+		FB6D5D742BD110DF00DD08FA /* PharmacyDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PharmacyDetailViewController.swift; sourceTree = "<group>"; };
 		FB7EB20F2BCE624000839008 /* 2024-Line-Tech-Fresh-ios-App-Assessment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "2024-Line-Tech-Fresh-ios-App-Assessment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB7EB2122BCE624000839008 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FB7EB2142BCE624000839008 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -79,11 +89,16 @@
 				FB7EB2122BCE624000839008 /* AppDelegate.swift */,
 				FB7EB2142BCE624000839008 /* SceneDelegate.swift */,
 				FB7EB2262BCE633A00839008 /* Epidemic.swift */,
+				FB6D5D6F2BD1057E00DD08FA /* Pharmacy.swift */,
 				FB7EB22C2BCE63A200839008 /* EpidemicDetailViewController.swift */,
 				FB7EB22A2BCE637500839008 /* EpidemicTableViewCell.swift */,
+				FB6D5D6D2BD1055D00DD08FA /* PharmacyTableViewCell.swift */,
 				FB7EB2282BCE634C00839008 /* EpidemicTableViewController.swift */,
+				FB6D5D6B2BD0FFE800DD08FA /* PharmacyTableViewController.swift */,
+				FB6D5D742BD110DF00DD08FA /* PharmacyDetailViewController.swift */,
 				FB7EB21B2BCE624100839008 /* Assets.xcassets */,
 				FB7EB2322BCE944700839008 /* Main.storyboard */,
+				FB6D5D712BD109AB00DD08FA /* Epidemic.storyboard */,
 				FB6D5D562BD0E55C00DD08FA /* regional.png */,
 				FB6D5D542BD0E55C00DD08FA /* district.png */,
 				FB6D5D5C2BD0E60800DD08FA /* clinic.png */,
@@ -161,6 +176,7 @@
 				FB7EB2342BCE944700839008 /* Main.storyboard in Resources */,
 				FB6D5D5F2BD0E60800DD08FA /* clinic.png in Resources */,
 				FB6D5D5A2BD0E55C00DD08FA /* regional.png in Resources */,
+				FB6D5D732BD109AB00DD08FA /* Epidemic.storyboard in Resources */,
 				FB6D5D612BD0E60800DD08FA /* pharmacy.png in Resources */,
 				FB6D5D632BD0E6B800DD08FA /* center.png in Resources */,
 				FB6D5D602BD0E60800DD08FA /* epidemic.png in Resources */,
@@ -174,11 +190,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB6D5D6C2BD0FFE800DD08FA /* PharmacyTableViewController.swift in Sources */,
 				FB7EB2272BCE633A00839008 /* Epidemic.swift in Sources */,
 				FB7EB2132BCE624000839008 /* AppDelegate.swift in Sources */,
 				FB7EB22B2BCE637500839008 /* EpidemicTableViewCell.swift in Sources */,
+				FB6D5D752BD110DF00DD08FA /* PharmacyDetailViewController.swift in Sources */,
 				FB7EB2292BCE634C00839008 /* EpidemicTableViewController.swift in Sources */,
 				FB7EB23E2BD0DA1D00839008 /* MasterTableViewController.swift in Sources */,
+				FB6D5D702BD1057E00DD08FA /* Pharmacy.swift in Sources */,
+				FB6D5D6E2BD1055D00DD08FA /* PharmacyTableViewCell.swift in Sources */,
 				FB7EB2152BCE624000839008 /* SceneDelegate.swift in Sources */,
 				FB7EB22D2BCE63A200839008 /* EpidemicDetailViewController.swift in Sources */,
 			);
@@ -187,6 +207,14 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		FB6D5D712BD109AB00DD08FA /* Epidemic.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB6D5D722BD109AB00DD08FA /* Base */,
+			);
+			name = Epidemic.storyboard;
+			sourceTree = "<group>";
+		};
 		FB7EB21D2BCE624100839008 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
