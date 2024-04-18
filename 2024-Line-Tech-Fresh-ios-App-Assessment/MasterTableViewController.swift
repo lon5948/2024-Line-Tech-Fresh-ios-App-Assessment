@@ -49,6 +49,8 @@ class MasterTableViewController: UITableViewController {
                 performSegue(withIdentifier: "showDistrict", sender: self)
             case 4:
                 performSegue(withIdentifier: "showRegion", sender: self)
+            case 5:
+                performSegue(withIdentifier: "showCenter", sender: self)
             default:
                 break
         }

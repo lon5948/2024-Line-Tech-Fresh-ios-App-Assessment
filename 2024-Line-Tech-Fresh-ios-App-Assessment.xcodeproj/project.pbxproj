@@ -34,6 +34,11 @@
 		FB6D5D942BD1862600DD08FA /* RegionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6D5D932BD1862600DD08FA /* RegionTableViewController.swift */; };
 		FB6D5D962BD1863900DD08FA /* RegionDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6D5D952BD1863900DD08FA /* RegionDetailViewController.swift */; };
 		FB6D5D992BD1894700DD08FA /* Region.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB6D5D972BD1894700DD08FA /* Region.storyboard */; };
+		FB6D5D9B2BD18C8D00DD08FA /* Center.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6D5D9A2BD18C8D00DD08FA /* Center.swift */; };
+		FB6D5D9D2BD18CB400DD08FA /* CenterTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6D5D9C2BD18CB400DD08FA /* CenterTableViewCell.swift */; };
+		FB6D5D9F2BD18CD000DD08FA /* CenterDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6D5D9E2BD18CD000DD08FA /* CenterDetailViewController.swift */; };
+		FB6D5DA12BD18D0400DD08FA /* CenterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6D5DA02BD18D0400DD08FA /* CenterTableViewController.swift */; };
+		FB6D5DA42BD1921A00DD08FA /* Center.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB6D5DA22BD1921A00DD08FA /* Center.storyboard */; };
 		FB7EB2132BCE624000839008 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7EB2122BCE624000839008 /* AppDelegate.swift */; };
 		FB7EB2152BCE624000839008 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7EB2142BCE624000839008 /* SceneDelegate.swift */; };
 		FB7EB21C2BCE624100839008 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB7EB21B2BCE624100839008 /* Assets.xcassets */; };
@@ -74,6 +79,11 @@
 		FB6D5D932BD1862600DD08FA /* RegionTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegionTableViewController.swift; sourceTree = "<group>"; };
 		FB6D5D952BD1863900DD08FA /* RegionDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegionDetailViewController.swift; sourceTree = "<group>"; };
 		FB6D5D982BD1894700DD08FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "2024-Line-Tech-Fresh-ios-App-Assessment/Base.lproj/Region.storyboard"; sourceTree = "<group>"; };
+		FB6D5D9A2BD18C8D00DD08FA /* Center.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Center.swift; sourceTree = "<group>"; };
+		FB6D5D9C2BD18CB400DD08FA /* CenterTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterTableViewCell.swift; sourceTree = "<group>"; };
+		FB6D5D9E2BD18CD000DD08FA /* CenterDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterDetailViewController.swift; sourceTree = "<group>"; };
+		FB6D5DA02BD18D0400DD08FA /* CenterTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterTableViewController.swift; sourceTree = "<group>"; };
+		FB6D5DA32BD1921A00DD08FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "2024-Line-Tech-Fresh-ios-App-Assessment/Base.lproj/Center.storyboard"; sourceTree = "<group>"; };
 		FB7EB20F2BCE624000839008 /* 2024-Line-Tech-Fresh-ios-App-Assessment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "2024-Line-Tech-Fresh-ios-App-Assessment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB7EB2122BCE624000839008 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FB7EB2142BCE624000839008 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -102,13 +112,12 @@
 		FB7EB2062BCE624000839008 = {
 			isa = PBXGroup;
 			children = (
-				FB7EB21D2BCE624100839008 /* LaunchScreen.storyboard */,
+				FB6D5DA22BD1921A00DD08FA /* Center.storyboard */,
 				FB6D5D712BD109AB00DD08FA /* Epidemic.storyboard */,
 				FB6D5D762BD131B000DD08FA /* Pharmacy.storyboard */,
 				FB6D5D972BD1894700DD08FA /* Region.storyboard */,
 				FB6D5D8C2BD17D7E00DD08FA /* District.storyboard */,
 				FB6D5D812BD1784400DD08FA /* Clinic.storyboard */,
-				FB7EB2322BCE944700839008 /* Main.storyboard */,
 				FB7EB2112BCE624000839008 /* 2024-Line-Tech-Fresh-ios-App-Assessment */,
 				FB7EB2102BCE624000839008 /* Products */,
 			);
@@ -125,6 +134,8 @@
 		FB7EB2112BCE624000839008 /* 2024-Line-Tech-Fresh-ios-App-Assessment */ = {
 			isa = PBXGroup;
 			children = (
+				FB7EB2322BCE944700839008 /* Main.storyboard */,
+				FB7EB21D2BCE624100839008 /* LaunchScreen.storyboard */,
 				FB7EB2122BCE624000839008 /* AppDelegate.swift */,
 				FB7EB2142BCE624000839008 /* SceneDelegate.swift */,
 				FB7EB2262BCE633A00839008 /* Epidemic.swift */,
@@ -155,6 +166,10 @@
 				FB6D5D5E2BD0E60800DD08FA /* pharmacy.png */,
 				FB6D5D622BD0E6B800DD08FA /* center.png */,
 				FB7EB23D2BD0DA1D00839008 /* MasterTableViewController.swift */,
+				FB6D5D9A2BD18C8D00DD08FA /* Center.swift */,
+				FB6D5D9E2BD18CD000DD08FA /* CenterDetailViewController.swift */,
+				FB6D5DA02BD18D0400DD08FA /* CenterTableViewController.swift */,
+				FB6D5D9C2BD18CB400DD08FA /* CenterTableViewCell.swift */,
 				FB7EB2202BCE624100839008 /* Info.plist */,
 			);
 			path = "2024-Line-Tech-Fresh-ios-App-Assessment";
@@ -224,6 +239,7 @@
 				FB6D5D582BD0E55C00DD08FA /* district.png in Resources */,
 				FB7EB2342BCE944700839008 /* Main.storyboard in Resources */,
 				FB6D5D5F2BD0E60800DD08FA /* clinic.png in Resources */,
+				FB6D5DA42BD1921A00DD08FA /* Center.storyboard in Resources */,
 				FB6D5D992BD1894700DD08FA /* Region.storyboard in Resources */,
 				FB6D5D5A2BD0E55C00DD08FA /* region.png in Resources */,
 				FB6D5D832BD1784400DD08FA /* Clinic.storyboard in Resources */,
@@ -250,13 +266,17 @@
 				FB6D5D942BD1862600DD08FA /* RegionTableViewController.swift in Sources */,
 				FB6D5D802BD1724700DD08FA /* ClinicDetailViewController.swift in Sources */,
 				FB7EB2132BCE624000839008 /* AppDelegate.swift in Sources */,
+				FB6D5D9B2BD18C8D00DD08FA /* Center.swift in Sources */,
 				FB6D5D872BD17A1100DD08FA /* DistrictTableViewController.swift in Sources */,
+				FB6D5D9F2BD18CD000DD08FA /* CenterDetailViewController.swift in Sources */,
+				FB6D5DA12BD18D0400DD08FA /* CenterTableViewController.swift in Sources */,
 				FB7EB22B2BCE637500839008 /* EpidemicTableViewCell.swift in Sources */,
 				FB6D5D752BD110DF00DD08FA /* PharmacyDetailViewController.swift in Sources */,
 				FB7EB2292BCE634C00839008 /* EpidemicTableViewController.swift in Sources */,
 				FB6D5D8B2BD17A3A00DD08FA /* DistrictTableViewCell.swift in Sources */,
 				FB7EB23E2BD0DA1D00839008 /* MasterTableViewController.swift in Sources */,
 				FB6D5D702BD1057E00DD08FA /* Pharmacy.swift in Sources */,
+				FB6D5D9D2BD18CB400DD08FA /* CenterTableViewCell.swift in Sources */,
 				FB6D5D6E2BD1055D00DD08FA /* PharmacyTableViewCell.swift in Sources */,
 				FB6D5D902BD1859700DD08FA /* Region.swift in Sources */,
 				FB7EB2152BCE624000839008 /* SceneDelegate.swift in Sources */,
@@ -309,6 +329,14 @@
 				FB6D5D982BD1894700DD08FA /* Base */,
 			);
 			name = Region.storyboard;
+			sourceTree = "<group>";
+		};
+		FB6D5DA22BD1921A00DD08FA /* Center.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB6D5DA32BD1921A00DD08FA /* Base */,
+			);
+			name = Center.storyboard;
 			sourceTree = "<group>";
 		};
 		FB7EB21D2BCE624100839008 /* LaunchScreen.storyboard */ = {
