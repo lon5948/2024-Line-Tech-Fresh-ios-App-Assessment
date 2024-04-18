@@ -1,0 +1,71 @@
+//
+//  ClinicTableViewController.swift
+//  2024-Line-Tech-Fresh-ios-App-Assessment
+//
+//  Created by LON Li on 2024/4/18.
+//
+
+import UIKit
+
+class ClinicTableViewController: UITableViewController {
+
+    var clinics = [Clinic]()
+    var refreshCon: UIRefreshControl!
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        self.title = "健保特約醫事機構-診所"
+        refreshCon = UIRefreshControl()
+        refreshCon.addTarget(self, action: #selector(refresh), for: .valueChanged)
+        tableView.addSubview(refreshCon)
+        
+        let urlStr = "https://info.nhi.gov.tw/api/iode0010/v1/rest/datastore/A21030000I-D21004-009"
+        
+        if let url = URL(string: urlStr) {
+            URLSession.shared.dataTask(with: url) { (data, response, erroe) in
+                let decoder = JSONDecoder()
+                if let data = data {
+                    do {
+                        let responseData = try decoder.decode(ClinicResponseData.self, from: data)
+                        DispatchQueue.main.async {
+                            self.clinics = responseData.result.records.filter { $0.close.isEmpty }
+                            self.tableView.reloadData()
+                        }
+                    } catch {
+                        print(error)
+                    }
+                }
+            }.resume()
+        }
+    }
+
+    // MARK: - Table view data source
+
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return clinics.count
+    }
+
+    
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "clinicCell", for: indexPath) as! ClinicTableViewCell
+        
+        let clinic = clinics[indexPath.row]
+        cell.titleLabel.text = clinic.name
+        
+        return cell
+    }
+    
+    @IBSegueAction func ToClinicDetailPage(_ coder: NSCoder) -> ClinicDetailViewController? {
+        let controller =  ClinicDetailViewController(coder: coder)
+        if let row = tableView.indexPathForSelectedRow?.row {
+            controller?.clinic = clinics[row]
+        }
+        return controller
+    }
+    
+    @objc func refresh() {
+        tableView.reloadData()
+        refreshCon.endRefreshing()
+    }
+}
+
