@@ -45,6 +45,7 @@
                         <segue destination="JUK-td-DQc" kind="show" identifier="showPharmacy" id="q8B-ZT-FLI"/>
                         <segue destination="mp7-wp-OX5" kind="show" identifier="showClinic" id="uDn-OU-Krc"/>
                         <segue destination="1Pl-uW-vXc" kind="show" identifier="showDistrict" id="BdB-D9-Zeb"/>
+                        <segue destination="8NJ-KW-MZS" kind="show" identifier="showRegion" id="Lwf-8K-e30"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AWp-Qi-qhx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -77,7 +78,7 @@
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="INR-T6-pyL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2418" y="-1347"/>
+            <point key="canvasLocation" x="2603" y="-1154"/>
         </scene>
         <!--Pharmacy-->
         <scene sceneID="2mE-gT-utP">
@@ -87,7 +88,7 @@
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OYv-3F-eeW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2654" y="-1222"/>
+            <point key="canvasLocation" x="2607" y="-1042"/>
         </scene>
         <!--Clinic-->
         <scene sceneID="ZAH-tc-pjl">
@@ -97,7 +98,7 @@
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hrv-l4-Xzy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2632" y="-1016"/>
+            <point key="canvasLocation" x="2586" y="-928"/>
         </scene>
         <!--District-->
         <scene sceneID="JFg-bR-QZt">
@@ -107,7 +108,17 @@
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gex-dE-pdp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2640" y="-887"/>
+            <point key="canvasLocation" x="2595" y="-815"/>
+        </scene>
+        <!--Region-->
+        <scene sceneID="FtP-s0-9ht">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Region" id="8NJ-KW-MZS" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="BA7-xT-ay5"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="n25-d1-mQ1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2592" y="-652"/>
         </scene>
     </scenes>
     <resources>

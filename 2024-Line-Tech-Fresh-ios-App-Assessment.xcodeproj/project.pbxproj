@@ -102,9 +102,13 @@
 		FB7EB2062BCE624000839008 = {
 			isa = PBXGroup;
 			children = (
+				FB7EB21D2BCE624100839008 /* LaunchScreen.storyboard */,
+				FB6D5D712BD109AB00DD08FA /* Epidemic.storyboard */,
+				FB6D5D762BD131B000DD08FA /* Pharmacy.storyboard */,
 				FB6D5D972BD1894700DD08FA /* Region.storyboard */,
 				FB6D5D8C2BD17D7E00DD08FA /* District.storyboard */,
 				FB6D5D812BD1784400DD08FA /* Clinic.storyboard */,
+				FB7EB2322BCE944700839008 /* Main.storyboard */,
 				FB7EB2112BCE624000839008 /* 2024-Line-Tech-Fresh-ios-App-Assessment */,
 				FB7EB2102BCE624000839008 /* Products */,
 			);
@@ -136,7 +140,6 @@
 				FB6D5D7F2BD1724700DD08FA /* ClinicDetailViewController.swift */,
 				FB6D5D792BD1702D00DD08FA /* ClinicTableViewController.swift */,
 				FB7EB21B2BCE624100839008 /* Assets.xcassets */,
-				FB7EB2322BCE944700839008 /* Main.storyboard */,
 				FB6D5D842BD179A300DD08FA /* District.swift */,
 				FB6D5D862BD17A1100DD08FA /* DistrictTableViewController.swift */,
 				FB6D5D882BD17A2700DD08FA /* DistrictDetailViewController.swift */,
@@ -145,8 +148,6 @@
 				FB6D5D912BD1861D00DD08FA /* RegionTableViewCell.swift */,
 				FB6D5D932BD1862600DD08FA /* RegionTableViewController.swift */,
 				FB6D5D952BD1863900DD08FA /* RegionDetailViewController.swift */,
-				FB6D5D712BD109AB00DD08FA /* Epidemic.storyboard */,
-				FB6D5D762BD131B000DD08FA /* Pharmacy.storyboard */,
 				FB6D5D562BD0E55C00DD08FA /* region.png */,
 				FB6D5D542BD0E55C00DD08FA /* district.png */,
 				FB6D5D5C2BD0E60800DD08FA /* clinic.png */,
@@ -154,7 +155,6 @@
 				FB6D5D5E2BD0E60800DD08FA /* pharmacy.png */,
 				FB6D5D622BD0E6B800DD08FA /* center.png */,
 				FB7EB23D2BD0DA1D00839008 /* MasterTableViewController.swift */,
-				FB7EB21D2BCE624100839008 /* LaunchScreen.storyboard */,
 				FB7EB2202BCE624100839008 /* Info.plist */,
 			);
 			path = "2024-Line-Tech-Fresh-ios-App-Assessment";
