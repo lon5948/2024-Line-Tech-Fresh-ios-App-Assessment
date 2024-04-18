@@ -9,7 +9,7 @@ import UIKit
 
 class MasterTableViewController: UITableViewController {
 
-    let imageName: [String] = ["epidemic", "pharmacy", "clinic", "district", "regional", "center"]
+    let imageName: [String] = ["epidemic", "pharmacy", "clinic", "district", "region", "center"]
     let buttonName: [String] = ["國際重要疫情資訊", "健保特約醫事機構-藥局", "健保特約醫事機構-診所", "健保特約醫事機構-地區醫院", "健保特約醫事機構-區域醫院", "健保特約醫事機構-醫學中心"]
     
     override func viewDidLoad() {
@@ -47,6 +47,8 @@ class MasterTableViewController: UITableViewController {
                 performSegue(withIdentifier: "showClinic", sender: self)
             case 3:
                 performSegue(withIdentifier: "showDistrict", sender: self)
+            case 4:
+                performSegue(withIdentifier: "showRegion", sender: self)
             default:
                 break
         }

@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		FB6D5D582BD0E55C00DD08FA /* district.png in Resources */ = {isa = PBXBuildFile; fileRef = FB6D5D542BD0E55C00DD08FA /* district.png */; };
-		FB6D5D5A2BD0E55C00DD08FA /* regional.png in Resources */ = {isa = PBXBuildFile; fileRef = FB6D5D562BD0E55C00DD08FA /* regional.png */; };
+		FB6D5D5A2BD0E55C00DD08FA /* region.png in Resources */ = {isa = PBXBuildFile; fileRef = FB6D5D562BD0E55C00DD08FA /* region.png */; };
 		FB6D5D5F2BD0E60800DD08FA /* clinic.png in Resources */ = {isa = PBXBuildFile; fileRef = FB6D5D5C2BD0E60800DD08FA /* clinic.png */; };
 		FB6D5D602BD0E60800DD08FA /* epidemic.png in Resources */ = {isa = PBXBuildFile; fileRef = FB6D5D5D2BD0E60800DD08FA /* epidemic.png */; };
 		FB6D5D612BD0E60800DD08FA /* pharmacy.png in Resources */ = {isa = PBXBuildFile; fileRef = FB6D5D5E2BD0E60800DD08FA /* pharmacy.png */; };
@@ -29,6 +29,11 @@
 		FB6D5D892BD17A2700DD08FA /* DistrictDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6D5D882BD17A2700DD08FA /* DistrictDetailViewController.swift */; };
 		FB6D5D8B2BD17A3A00DD08FA /* DistrictTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6D5D8A2BD17A3A00DD08FA /* DistrictTableViewCell.swift */; };
 		FB6D5D8E2BD17D7E00DD08FA /* District.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB6D5D8C2BD17D7E00DD08FA /* District.storyboard */; };
+		FB6D5D902BD1859700DD08FA /* Region.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6D5D8F2BD1859700DD08FA /* Region.swift */; };
+		FB6D5D922BD1861D00DD08FA /* RegionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6D5D912BD1861D00DD08FA /* RegionTableViewCell.swift */; };
+		FB6D5D942BD1862600DD08FA /* RegionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6D5D932BD1862600DD08FA /* RegionTableViewController.swift */; };
+		FB6D5D962BD1863900DD08FA /* RegionDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6D5D952BD1863900DD08FA /* RegionDetailViewController.swift */; };
+		FB6D5D992BD1894700DD08FA /* Region.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB6D5D972BD1894700DD08FA /* Region.storyboard */; };
 		FB7EB2132BCE624000839008 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7EB2122BCE624000839008 /* AppDelegate.swift */; };
 		FB7EB2152BCE624000839008 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7EB2142BCE624000839008 /* SceneDelegate.swift */; };
 		FB7EB21C2BCE624100839008 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB7EB21B2BCE624100839008 /* Assets.xcassets */; };
@@ -43,7 +48,7 @@
 
 /* Begin PBXFileReference section */
 		FB6D5D542BD0E55C00DD08FA /* district.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = district.png; sourceTree = "<group>"; };
-		FB6D5D562BD0E55C00DD08FA /* regional.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = regional.png; sourceTree = "<group>"; };
+		FB6D5D562BD0E55C00DD08FA /* region.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = region.png; sourceTree = "<group>"; };
 		FB6D5D5C2BD0E60800DD08FA /* clinic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clinic.png; sourceTree = "<group>"; };
 		FB6D5D5D2BD0E60800DD08FA /* epidemic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = epidemic.png; sourceTree = "<group>"; };
 		FB6D5D5E2BD0E60800DD08FA /* pharmacy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pharmacy.png; sourceTree = "<group>"; };
@@ -64,6 +69,11 @@
 		FB6D5D882BD17A2700DD08FA /* DistrictDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistrictDetailViewController.swift; sourceTree = "<group>"; };
 		FB6D5D8A2BD17A3A00DD08FA /* DistrictTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistrictTableViewCell.swift; sourceTree = "<group>"; };
 		FB6D5D8D2BD17D7E00DD08FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "2024-Line-Tech-Fresh-ios-App-Assessment/Base.lproj/District.storyboard"; sourceTree = "<group>"; };
+		FB6D5D8F2BD1859700DD08FA /* Region.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Region.swift; sourceTree = "<group>"; };
+		FB6D5D912BD1861D00DD08FA /* RegionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegionTableViewCell.swift; sourceTree = "<group>"; };
+		FB6D5D932BD1862600DD08FA /* RegionTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegionTableViewController.swift; sourceTree = "<group>"; };
+		FB6D5D952BD1863900DD08FA /* RegionDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegionDetailViewController.swift; sourceTree = "<group>"; };
+		FB6D5D982BD1894700DD08FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "2024-Line-Tech-Fresh-ios-App-Assessment/Base.lproj/Region.storyboard"; sourceTree = "<group>"; };
 		FB7EB20F2BCE624000839008 /* 2024-Line-Tech-Fresh-ios-App-Assessment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "2024-Line-Tech-Fresh-ios-App-Assessment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB7EB2122BCE624000839008 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FB7EB2142BCE624000839008 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -92,6 +102,7 @@
 		FB7EB2062BCE624000839008 = {
 			isa = PBXGroup;
 			children = (
+				FB6D5D972BD1894700DD08FA /* Region.storyboard */,
 				FB6D5D8C2BD17D7E00DD08FA /* District.storyboard */,
 				FB6D5D812BD1784400DD08FA /* Clinic.storyboard */,
 				FB7EB2112BCE624000839008 /* 2024-Line-Tech-Fresh-ios-App-Assessment */,
@@ -130,9 +141,13 @@
 				FB6D5D862BD17A1100DD08FA /* DistrictTableViewController.swift */,
 				FB6D5D882BD17A2700DD08FA /* DistrictDetailViewController.swift */,
 				FB6D5D8A2BD17A3A00DD08FA /* DistrictTableViewCell.swift */,
+				FB6D5D8F2BD1859700DD08FA /* Region.swift */,
+				FB6D5D912BD1861D00DD08FA /* RegionTableViewCell.swift */,
+				FB6D5D932BD1862600DD08FA /* RegionTableViewController.swift */,
+				FB6D5D952BD1863900DD08FA /* RegionDetailViewController.swift */,
 				FB6D5D712BD109AB00DD08FA /* Epidemic.storyboard */,
 				FB6D5D762BD131B000DD08FA /* Pharmacy.storyboard */,
-				FB6D5D562BD0E55C00DD08FA /* regional.png */,
+				FB6D5D562BD0E55C00DD08FA /* region.png */,
 				FB6D5D542BD0E55C00DD08FA /* district.png */,
 				FB6D5D5C2BD0E60800DD08FA /* clinic.png */,
 				FB6D5D5D2BD0E60800DD08FA /* epidemic.png */,
@@ -209,7 +224,8 @@
 				FB6D5D582BD0E55C00DD08FA /* district.png in Resources */,
 				FB7EB2342BCE944700839008 /* Main.storyboard in Resources */,
 				FB6D5D5F2BD0E60800DD08FA /* clinic.png in Resources */,
-				FB6D5D5A2BD0E55C00DD08FA /* regional.png in Resources */,
+				FB6D5D992BD1894700DD08FA /* Region.storyboard in Resources */,
+				FB6D5D5A2BD0E55C00DD08FA /* region.png in Resources */,
 				FB6D5D832BD1784400DD08FA /* Clinic.storyboard in Resources */,
 				FB6D5D782BD131B000DD08FA /* Pharmacy.storyboard in Resources */,
 				FB6D5D732BD109AB00DD08FA /* Epidemic.storyboard in Resources */,
@@ -226,10 +242,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB6D5D922BD1861D00DD08FA /* RegionTableViewCell.swift in Sources */,
 				FB6D5D6C2BD0FFE800DD08FA /* PharmacyTableViewController.swift in Sources */,
 				FB6D5D892BD17A2700DD08FA /* DistrictDetailViewController.swift in Sources */,
 				FB6D5D7C2BD1705A00DD08FA /* Clinic.swift in Sources */,
 				FB7EB2272BCE633A00839008 /* Epidemic.swift in Sources */,
+				FB6D5D942BD1862600DD08FA /* RegionTableViewController.swift in Sources */,
 				FB6D5D802BD1724700DD08FA /* ClinicDetailViewController.swift in Sources */,
 				FB7EB2132BCE624000839008 /* AppDelegate.swift in Sources */,
 				FB6D5D872BD17A1100DD08FA /* DistrictTableViewController.swift in Sources */,
@@ -240,8 +258,10 @@
 				FB7EB23E2BD0DA1D00839008 /* MasterTableViewController.swift in Sources */,
 				FB6D5D702BD1057E00DD08FA /* Pharmacy.swift in Sources */,
 				FB6D5D6E2BD1055D00DD08FA /* PharmacyTableViewCell.swift in Sources */,
+				FB6D5D902BD1859700DD08FA /* Region.swift in Sources */,
 				FB7EB2152BCE624000839008 /* SceneDelegate.swift in Sources */,
 				FB7EB22D2BCE63A200839008 /* EpidemicDetailViewController.swift in Sources */,
+				FB6D5D962BD1863900DD08FA /* RegionDetailViewController.swift in Sources */,
 				FB6D5D7A2BD1702D00DD08FA /* ClinicTableViewController.swift in Sources */,
 				FB6D5D7E2BD1720200DD08FA /* ClinicTableViewCell.swift in Sources */,
 				FB6D5D852BD179A300DD08FA /* District.swift in Sources */,
@@ -281,6 +301,14 @@
 				FB6D5D8D2BD17D7E00DD08FA /* Base */,
 			);
 			name = District.storyboard;
+			sourceTree = "<group>";
+		};
+		FB6D5D972BD1894700DD08FA /* Region.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB6D5D982BD1894700DD08FA /* Base */,
+			);
+			name = Region.storyboard;
 			sourceTree = "<group>";
 		};
 		FB7EB21D2BCE624100839008 /* LaunchScreen.storyboard */ = {
