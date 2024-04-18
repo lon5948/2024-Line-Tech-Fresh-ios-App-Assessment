@@ -3,6 +3,7 @@
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -44,7 +45,7 @@
                         <segue destination="AHe-LW-SrW" kind="show" identifier="showEpidemicInfo" id="0Xg-hd-DOo"/>
                         <segue destination="JUK-td-DQc" kind="show" identifier="showPharmacy" id="q8B-ZT-FLI"/>
                         <segue destination="mp7-wp-OX5" kind="show" identifier="showClinic" id="uDn-OU-Krc"/>
-                        <segue destination="1Pl-uW-vXc" kind="show" identifier="showDistrict" id="BdB-D9-Zeb"/>
+                        <segue destination="XBs-Vj-l1d" kind="show" identifier="showDistrict" id="BdB-D9-Zeb"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AWp-Qi-qhx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -99,15 +100,75 @@
             </objects>
             <point key="canvasLocation" x="2632" y="-1016"/>
         </scene>
-        <!--District-->
-        <scene sceneID="JFg-bR-QZt">
+        <!--District Table View Controller-->
+        <scene sceneID="g9b-SX-LjS">
             <objects>
-                <viewControllerPlaceholder storyboardName="District" id="1Pl-uW-vXc" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="2A4-w2-pdu"/>
-                </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="gex-dE-pdp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <tableViewController id="XBs-Vj-l1d" customClass="DistrictTableViewController" customModule="_024_Line_Tech_Fresh_ios_App_Assessment" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="70" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="zvf-7l-7fc">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="districtCell" id="7bI-YR-bDk" customClass="DistrictTableViewCell" customModule="_024_Line_Tech_Fresh_ios_App_Assessment" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="50" width="393" height="70"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="7bI-YR-bDk" id="43k-EB-Izd">
+                                    <rect key="frame" x="0.0" y="0.0" width="393" height="70"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NEn-RE-h2a">
+                                            <rect key="frame" x="20" y="11" width="353" height="48"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="titleLabel" destination="NEn-RE-h2a" id="zro-X9-Uau"/>
+                                    <segue destination="43E-9t-fdY" kind="show" destinationCreationSelector="ToDistrictDetailPage:" id="Vlt-j8-ykN"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="XBs-Vj-l1d" id="8HD-9W-9qR"/>
+                            <outlet property="delegate" destination="XBs-Vj-l1d" id="QJv-DF-NNT"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="hs6-d7-OqV"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8hB-4v-Lg3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2640" y="-887"/>
+            <point key="canvasLocation" x="2416.030534351145" y="-430.28169014084511"/>
+        </scene>
+        <!--District Detail View Controller-->
+        <scene sceneID="zLn-G3-7lr">
+            <objects>
+                <viewController id="43E-9t-fdY" customClass="DistrictDetailViewController" customModule="_024_Line_Tech_Fresh_ios_App_Assessment" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="zqQ-oH-JPU">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b3G-zw-nny">
+                                <rect key="frame" x="16" y="103" width="361" height="138"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="w0h-qV-mdO"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="O5B-nG-EtX"/>
+                    <connections>
+                        <outlet property="descriptionLabel" destination="b3G-zw-nny" id="T4h-8i-N9u"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Pba-PG-cEA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3093.8931297709923" y="-430.28169014084511"/>
         </scene>
     </scenes>
     <resources>

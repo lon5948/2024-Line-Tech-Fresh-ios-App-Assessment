@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="v8L-y3-gvL">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="XBs-Vj-l1d">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
@@ -8,98 +8,6 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Master-->
-        <scene sceneID="Q9m-ih-wke">
-            <objects>
-                <tableViewController id="fcJ-7d-Z2L" customClass="MasterTableViewController" customModule="_024_Line_Tech_Fresh_ios_App_Assessment" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="80" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="led-3D-Uot">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="rootCell" textLabel="KHL-Dl-gdZ" style="IBUITableViewCellStyleDefault" id="4ZH-ek-ROf">
-                                <rect key="frame" x="0.0" y="50" width="393" height="80"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="4ZH-ek-ROf" id="a8f-h8-cgJ">
-                                    <rect key="frame" x="0.0" y="0.0" width="393" height="80"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                    <subviews>
-                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="KHL-Dl-gdZ">
-                                            <rect key="frame" x="20" y="0.0" width="353" height="80"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                            <nil key="textColor"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
-                                    </subviews>
-                                </tableViewCellContentView>
-                            </tableViewCell>
-                        </prototypes>
-                        <connections>
-                            <outlet property="dataSource" destination="fcJ-7d-Z2L" id="5yL-hM-bQZ"/>
-                            <outlet property="delegate" destination="fcJ-7d-Z2L" id="vgJ-hm-KME"/>
-                        </connections>
-                    </tableView>
-                    <navigationItem key="navigationItem" title="Master" id="KoI-1g-Clw"/>
-                    <connections>
-                        <segue destination="AHe-LW-SrW" kind="show" identifier="showEpidemicInfo" id="0Xg-hd-DOo"/>
-                        <segue destination="JUK-td-DQc" kind="show" identifier="showPharmacy" id="q8B-ZT-FLI"/>
-                        <segue destination="mp7-wp-OX5" kind="show" identifier="showClinic" id="uDn-OU-Krc"/>
-                        <segue destination="XBs-Vj-l1d" kind="show" identifier="showDistrict" id="BdB-D9-Zeb"/>
-                    </connections>
-                </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="AWp-Qi-qhx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1609" y="-725"/>
-        </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="ZjZ-kI-wcH">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="v8L-y3-gvL" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="act-cV-Tef">
-                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="fcJ-7d-Z2L" kind="relationship" relationship="rootViewController" id="KUq-Yb-0Ox"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="ZO7-R8-dlK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="858" y="-725"/>
-        </scene>
-        <!--Epidemic-->
-        <scene sceneID="9Ka-NK-64y">
-            <objects>
-                <viewControllerPlaceholder storyboardName="Epidemic" id="AHe-LW-SrW" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="AzW-mU-IjO"/>
-                </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="INR-T6-pyL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2418" y="-1347"/>
-        </scene>
-        <!--Pharmacy-->
-        <scene sceneID="2mE-gT-utP">
-            <objects>
-                <viewControllerPlaceholder storyboardName="Pharmacy" id="JUK-td-DQc" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="N9e-LG-Gpz"/>
-                </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="OYv-3F-eeW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2654" y="-1222"/>
-        </scene>
-        <!--Clinic-->
-        <scene sceneID="ZAH-tc-pjl">
-            <objects>
-                <viewControllerPlaceholder storyboardName="Clinic" id="mp7-wp-OX5" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="q7p-8l-mbe"/>
-                </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="hrv-l4-Xzy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2632" y="-1016"/>
-        </scene>
         <!--District Table View Controller-->
         <scene sceneID="g9b-SX-LjS">
             <objects>
