@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="v8L-y3-gvL">
-    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -11,31 +11,30 @@
         <!--Epidemic Table View Controller-->
         <scene sceneID="imW-fo-jeg">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="2hB-5p-dZQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <tableViewController id="lLa-Vn-z1m" customClass="EpidemicTableViewController" customModule="_024_Line_Tech_Fresh_ios_App_Assessment" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="70" sectionHeaderHeight="28" sectionFooterHeight="28" id="1y2-98-t70">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="breakCell" rowHeight="70" id="xkI-2a-Egj" userLabel="breakCell" customClass="EpidemicTableViewCell" customModule="_024_Line_Tech_Fresh_ios_App_Assessment" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="50" width="393" height="70"/>
+                                <rect key="frame" x="0.0" y="50" width="414" height="70"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="xkI-2a-Egj" id="8db-y5-WsL">
-                                    <rect key="frame" x="0.0" y="0.0" width="393" height="70"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="70"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <stackView opaque="NO" contentMode="scaleToFill" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="uG9-Un-Z5u">
-                                            <rect key="frame" x="10" y="10" width="373" height="50"/>
+                                            <rect key="frame" x="10" y="10" width="394" height="50"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7K5-c6-SfA">
-                                                    <rect key="frame" x="0.0" y="0.0" width="306.66666666666669" height="50"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="327.5" height="50"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WGb-ew-Jv5" userLabel="Break Day Label">
-                                                    <rect key="frame" x="331.66666666666669" y="0.0" width="41.333333333333314" height="50"/>
+                                                    <rect key="frame" x="352.5" y="0.0" width="41.5" height="50"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -64,20 +63,20 @@
                     </tableView>
                     <navigationItem key="navigationItem" id="5Rc-K4-43z"/>
                 </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2hB-5p-dZQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2820" y="-1"/>
+            <point key="canvasLocation" x="2822" y="-196"/>
         </scene>
         <!--Epidemic Detail View Controller-->
         <scene sceneID="fW7-CJ-ZVt">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="XVZ-kg-wUp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="v5C-bO-Apg" customClass="EpidemicDetailViewController" customModule="_024_Line_Tech_Fresh_ios_App_Assessment" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Aco-mY-YF5">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y2K-ab-Pt4">
-                                <rect key="frame" x="10" y="122.99999999999999" width="373" height="20.333333333333329"/>
+                                <rect key="frame" x="10" y="112" width="394" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -96,27 +95,28 @@
                         <outlet property="describeLabel" destination="y2K-ab-Pt4" id="ueL-HW-2Ox"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XVZ-kg-wUp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4014" y="-1"/>
+            <point key="canvasLocation" x="4159" y="-196"/>
         </scene>
         <!--Master-->
         <scene sceneID="Q9m-ih-wke">
             <objects>
                 <tableViewController id="fcJ-7d-Z2L" customClass="MasterTableViewController" customModule="_024_Line_Tech_Fresh_ios_App_Assessment" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="80" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="led-3D-Uot">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="rootCell" textLabel="KHL-Dl-gdZ" style="IBUITableViewCellStyleDefault" id="4ZH-ek-ROf">
-                                <rect key="frame" x="0.0" y="50" width="393" height="80"/>
+                                <rect key="frame" x="0.0" y="50" width="414" height="80"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="4ZH-ek-ROf" id="a8f-h8-cgJ">
-                                    <rect key="frame" x="0.0" y="0.0" width="393" height="80"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="80"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="KHL-Dl-gdZ">
-                                            <rect key="frame" x="20" y="0.0" width="353" height="80"/>
+                                            <rect key="frame" x="20" y="0.0" width="374" height="80"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="0.0"/>
                                             <nil key="textColor"/>
@@ -124,6 +124,9 @@
                                         </label>
                                     </subviews>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="lLa-Vn-z1m" kind="show" identifier="showEpidemicInfo" id="bfA-zH-VJ8"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -132,9 +135,6 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Master" id="KoI-1g-Clw"/>
-                    <connections>
-                        <segue destination="lLa-Vn-z1m" kind="show" identifier="showEpidemicInfo" id="0Xg-hd-DOo"/>
-                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AWp-Qi-qhx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -146,7 +146,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="v8L-y3-gvL" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="act-cV-Tef">
-                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <rect key="frame" x="0.0" y="48" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
